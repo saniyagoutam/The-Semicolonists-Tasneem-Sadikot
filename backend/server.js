@@ -49,5 +49,3 @@ app.post('/api/gemini', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Backend server running on http://localhost:${PORT}`);
 });
-
-console.log("API KEY:", process.env.GEMINI_API_KEY);
